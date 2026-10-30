@@ -142,9 +142,9 @@ const App = () => {
 
             <div className="images w-full h-screen relative overflow-hidden">
               
-              <img className='sky w-full h-full scale-[1.5] rotate-[-15deg] object-cover absolute' src="/sky.png" alt="" />
+              <img className='sky w-full h-full scale-[1.5] rotate-[-15deg] object-cover absolute' src={`${import.meta.env.BASE_URL}sky.png`} alt="" />
 
-              <img className='background w-full h-full scale-[1.5] rotate-[-15deg] object-cover absolute' src="/bg.png" alt="" />
+              <img className='background w-full h-full scale-[1.5] rotate-[-15deg] object-cover absolute' src={`${import.meta.env.BASE_URL}bg.png`} alt="" />
 
               <div className='text text-[8rem] absolute top-0 left-1/2 -translate-x-1/2 text-white leading-none'>
                 <h1 className='-ml-40'>grand</h1>
@@ -152,7 +152,7 @@ const App = () => {
                 <h1 className='-ml-40'>auto</h1>
               </div>
 
-              <img className='girl absolute h-[130%] scale-[1.8] rotate-[-25deg] -bottom-[45%] left-1/2 -translate-x-1/2' src="/girlbg.png" alt="" />
+              <img className='girl absolute h-[130%] scale-[1.8] rotate-[-25deg] -bottom-[45%] left-1/2 -translate-x-1/2' src={`${import.meta.env.BASE_URL}girlbg.png`} alt="" />
 
             </div>
 
@@ -169,7 +169,7 @@ const App = () => {
           <div className="nextpage w-full h-screen bg-black flex justify-center">
 
            <div className='w-[30%] py-30 relative'>
-             <img className='scale-[1.2] absolute left-1/2 -translate-x-1/2' src="/imag.png" alt="" />
+             <img className='scale-[1.2] absolute left-1/2 -translate-x-1/2' src={`${import.meta.env.BASE_URL}imag.png`} alt="" />
            </div>
 
             <div className="info text-white w-[30%] py-30 flex flex-col justify-center gap-5 ">
